@@ -47,7 +47,7 @@ function intensify(options) {
       var actual = toString(match)
       var message
 
-      if jargons.indexOf(phrase) === -1) {
+      if (jargons.indexOf(phrase) === -1) {
         type = weasel
 
         if (weasels.indexOf(phrase) === -1) {
@@ -55,7 +55,7 @@ function intensify(options) {
         }
       }
 
-      if type == jargon {
+      if (type == jargon) {
         message = file.message(
           quote(actual, '`') + ' ' + reason[type],
           {
