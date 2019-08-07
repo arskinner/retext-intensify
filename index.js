@@ -13,7 +13,7 @@ var unique = require('arr-union')
 
 module.exports = intensify
 
-var list = unique([], fillers, hedges, weasels, jargons).sort()
+var list = unique([], fillers, hedges, weasels).sort()
 
 var source = 'retext-intensify'
 
