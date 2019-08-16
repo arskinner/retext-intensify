@@ -25,7 +25,7 @@
   "dependencies": {
     "arr-union": "^3.0.0",
     "array-differ": "^3.0.0",
-    "fillers": "github:arskinner/fillers",
+    "fillers": "github:arskinner/fillers#build",
     "hedges": "github:arskinner/hedges#build",
     "nlcst-search": "^1.0.0",
     "nlcst-to-string": "^2.0.0",
