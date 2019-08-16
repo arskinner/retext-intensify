@@ -1,6 +1,6 @@
 {
   "name": "retext-intensify",
-  "version": "4.0.0",
+  "version": "4.0.1",
   "description": "retext plugin to check for weak and mitigating wording",
   "license": "MIT",
   "keywords": [
@@ -25,13 +25,13 @@
   "dependencies": {
     "arr-union": "^3.0.0",
     "array-differ": "^3.0.0",
-    "fillers": "^1.0.0",
-    "hedges": "^1.0.0",
+    "fillers": "github:arskinner/fillers",
+    "hedges": "github:arskinner/hedges#build",
     "nlcst-search": "^1.0.0",
     "nlcst-to-string": "^2.0.0",
     "quotation": "^1.0.0",
     "unist-util-position": "^3.0.0",
-    "weasels": "^1.0.0",
+    "weasels": "github:arskinner/weasels#build",
     "jargon": "arskinner/jargon"
   },
   "devDependencies": {
